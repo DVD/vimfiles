@@ -1,0 +1,30 @@
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/splitjoin"]
+	path = bundle/splitjoin
+	url = https://github.com/AndrewRadev/splitjoin.vim.git
+[submodule "bundle/tasklist"]
+	path = bundle/tasklist
+	url = https://github.com/vim-scripts/TaskList.vim.git
+[submodule "bundle/SnipMate"]
+	path = bundle/SnipMate
+	url = git://github.com/garbas/vim-snipmate.git
+[submodule "bundle/t1lib"]
+	path = bundle/t1lib
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "bundle/mw-utils"]
+	path = bundle/mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/omnicppcomplete"]
+	path = bundle/omnicppcomplete
+	url = https://github.com/vim-scripts/OmniCppComplete
