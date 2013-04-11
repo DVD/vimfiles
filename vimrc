@@ -1,6 +1,15 @@
 "Stop running in vi-compatible mode.
 set nocompatible
 
+" Just in case default configuration says something else
+colorscheme default
+
+"Use light font colors
+set background=dark
+
+"Do not run in paste mode. It is for PASTING only
+set nopaste
+
 "Set indentation rules
 set shiftwidth=4
 set ts=4
@@ -57,9 +66,6 @@ if has('gui_running')
 	"Auto complete with Ctrl+Space
 	"imap <c-space> <c-x><c-o><c-p>
 endif
-
-"Use light font colors
-set background=dark
 
 "Be quiet :)
 set noerrorbells
