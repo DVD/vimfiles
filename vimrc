@@ -85,8 +85,8 @@ set laststatus=2
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 
 "Save with F2
-nmap <F2> :w!<CR>
-imap <F2> <C-O>:w!<CR>
+nmap <F2> :update!<CR>
+imap <F2> <C-O>:update!<CR>
 
 map <C-F11> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
