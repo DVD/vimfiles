@@ -86,16 +86,16 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%0
 
 "Save with F2
 nmap <F2> :w!<CR>
-imap <F2> <Esc><F2>
+imap <F2> <C-O>:w!<CR>
 
 map <C-F11> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 "Switch mouse off
 map <F9> :set mouse=""<CR>:set nu!<CR>
-imap <F9> <F2><F9>
+imap <F9> <Esc><F2><F9>
 "Switch mouse on
 map <F8> :set mouse=a<CR>:set nu<CR>
-imap <F8> <F2><F8>
+imap <F8> <Esc><F2><F8>
 
 "Clear last search
 let @/ = ""
