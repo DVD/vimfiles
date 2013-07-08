@@ -102,8 +102,7 @@ let @/ = ""
 nmap <F12> :let @/=""<CR>
 imap <F12> <Esc><F12>
 
-nmap <F7> :set paste!<CR>
-imap <F7> <ESC><F7>
+set pastetoggle=<F7>
 
 map <F3> :NERDTreeToggle<CR>
 imap <F3> <ESC><F3>
