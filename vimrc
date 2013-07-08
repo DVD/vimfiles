@@ -107,10 +107,12 @@ set pastetoggle=<F7>
 map <F3> :NERDTreeToggle<CR>
 imap <F3> <ESC><F3>
 
+let mapleader=','
+vnoremap <Leader>s :sort<CR>
+
 nmap sj :SplitjoinSplit<cr>
 nmap sk :SplitjoinJoin<cr>
 
-let mapleader=','
 "if exists(":Tabularize")
 	nmap <Leader>a= :Tabularize /=<CR>
 	vmap <Leader>a= :Tabularize /=<CR>
