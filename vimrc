@@ -97,10 +97,10 @@ imap <F9> <Esc><F2><F9>
 map <F8> :set mouse=a<CR>:set nu<CR>
 imap <F8> <Esc><F2><F8>
 
-"Clear last search
-let @/ = ""
-nmap <F12> :let @/=""<CR>
-imap <F12> <Esc><F12>
+"Remove highlight from last search
+nohl
+nmap <F12> :nohl<CR>
+imap <F12> <C-O><F12>
 
 set pastetoggle=<F7>
 
