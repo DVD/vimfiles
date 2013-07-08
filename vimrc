@@ -110,6 +110,10 @@ imap <F3> <ESC><F3>
 let mapleader=','
 vnoremap <Leader>s :sort<CR>
 
+" Friendlier indentation
+vnoremap < <gv
+vnoremap > >gv
+
 nmap sj :SplitjoinSplit<cr>
 nmap sk :SplitjoinJoin<cr>
 
