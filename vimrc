@@ -109,6 +109,7 @@ imap <F3> <ESC><F3>
 
 let mapleader=','
 vnoremap <Leader>s :sort<CR>
+nnoremap <Leader>o :CtrlP<CR>
 
 " Friendlier indentation
 vnoremap < <gv
