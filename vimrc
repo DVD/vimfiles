@@ -34,7 +34,7 @@ set incsearch
 
 "Use smart case search
 set ignorecase
-set smartcase 
+set smartcase
 
 "Enable syntax highlighting
 syntax on
@@ -133,8 +133,7 @@ au BufNewFile,BufRead *.plpgsql set filetype=plsql
 au BufNewFile,BufRead *.pgsql set filetype=plsql
 au BufRead,BufNewFile *.wiki                set filetype=mediawiki
 
-" Uncomment the following to have Vim jump to the last position when                                                       
-" reopening a file
+" Uncomment the following to have Vim jump to the last position when reopening a file
 au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
   \| exe "normal! g'\"" | endif
 
