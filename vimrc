@@ -150,3 +150,6 @@ au FileType gitcommit au! BufEnter COMMIT_EDITMSG call setpos('.', [0, 1, 1, 0])
 
 highlight RedundantWhitespace ctermbg=red guibg=red
 match RedundantWhitespace /\s\+$\| \+\ze\t/
+
+" Always open and focus the quickfix list after a grep
+autocmd QuickFixCmdPost *grep* copen
