@@ -158,4 +158,4 @@ highlight RedundantWhitespace ctermbg=red guibg=red
 match RedundantWhitespace /\s\+$\| \+\ze\t/
 
 " Always open and focus the quickfix list after a grep
-autocmd QuickFixCmdPost *grep* copen
+autocmd QuickFixCmdPost *grep* if getqflist() != [] | copen | endif
