@@ -63,6 +63,12 @@ if has('gui_running')
 	set guioptions-=m
 	set guioptions-=T
 
+	"Paste with Shift+Insert and Ctrl+V
+	nnoremap <S-Insert> <MiddleMouse>
+	inoremap <S-Insert> <MiddleMouse>
+	nnoremap <C-v> "+p
+	inoremap <C-v> <C-O>"+p
+
 	"Auto complete with Ctrl+Space
 	"imap <c-space> <c-x><c-o><c-p>
 endif
