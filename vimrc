@@ -66,7 +66,7 @@ if has('gui_running')
 	"Paste with Shift+Insert and Ctrl+V
 	nnoremap <S-Insert> <MiddleMouse>
 	inoremap <S-Insert> <MiddleMouse>
-	nnoremap <C-v> "+p
+	inoremap <C-v> "+p
 	inoremap <C-v> <C-O>"+p
 
 	"Auto complete with Ctrl+Space
