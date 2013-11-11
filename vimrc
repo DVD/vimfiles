@@ -45,16 +45,6 @@ set ruler
 "Display line numbers
 set number
 
-"Highlight cursor line
-set cursorline
-hi CursorLine cterm=NONE ctermbg=darkgrey ctermfg=NONE guibg=darkgrey guifg=NONE
-
-"Start spell checking
-set spell spelllang=bg,en_us
-"Fix spell check error highlight
-hi clear SpellBad
-hi SpellBad cterm=underline ctermfg=red
-
 "Only for GUI version
 if has('gui_running')
 	"Set default color scheme
@@ -72,6 +62,16 @@ if has('gui_running')
 	"Auto complete with Ctrl+Space
 	"imap <c-space> <c-x><c-o><c-p>
 endif
+
+"Highlight cursor line
+set cursorline
+hi CursorLine cterm=NONE ctermbg=darkgrey ctermfg=NONE guibg=#2d2d2d guifg=NONE
+
+"Start spell checking
+set spell spelllang=bg,en_us
+"Fix spell check error highlight
+hi clear SpellBad
+hi SpellBad cterm=underline ctermfg=red
 
 "Be quiet :)
 set noerrorbells
