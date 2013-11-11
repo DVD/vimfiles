@@ -133,6 +133,12 @@ vnoremap > >gv
 nmap sj :SplitjoinSplit<cr>
 nmap sk :SplitjoinJoin<cr>
 
+" Fugitive
+nnoremap <Leader>gd :Gdiff<CR>
+nnoremap <Leader>gD <c-w>h<c-w>c:diffoff<CR>
+nnoremap <Leader>gc :Gcommit<CR>
+
+
 "if exists(":Tabularize")
 	nmap <Leader>a= :Tabularize /=<CR>
 	vmap <Leader>a= :Tabularize /=<CR>
