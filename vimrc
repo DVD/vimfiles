@@ -165,3 +165,6 @@ match RedundantWhitespace /\s\+$\| \+\ze\t/
 
 " Always open and focus the quickfix list after a grep
 autocmd QuickFixCmdPost *grep* if getqflist() != [] | copen | endif
+
+" CtrlP plugin settings
+let g:ctrlp_max_files=0
