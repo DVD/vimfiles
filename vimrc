@@ -88,7 +88,7 @@ call pathogen#infect()
 
 "Set the window status line and make it always visible.
 set laststatus=2
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]\ %{exists('g:loaded_fugitive')?fugitive#statusline():''}
 
 function! ToggleCopyMode()
 	if &mouse =~ "a"
