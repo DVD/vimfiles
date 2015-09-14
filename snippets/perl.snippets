@@ -1,3 +1,5 @@
 # Better chomp
 snippet chomp
 	$${1:line} =~ s/[\r\n]+$//m;             # a better way to chomp($1);${2}
+snippet const
+	use constant ${1:name} => ${2:value};
