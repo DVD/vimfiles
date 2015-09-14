@@ -138,6 +138,9 @@ nnoremap <Leader>gd :Gdiff<CR>
 nnoremap <Leader>gD <c-w>h<c-w>c:diffoff<CR>
 nnoremap <Leader>gc :Gcommit<CR>
 
+" YankRing
+nmap <silent> <C-F12> :YRShow<CR>
+imap <silent> <C-F12> <Esc><C-F12>
 
 "if exists(":Tabularize")
 	nmap <Leader>a= :Tabularize /=<CR>
