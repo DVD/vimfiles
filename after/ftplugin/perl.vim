@@ -17,7 +17,8 @@ let perl_extended_vars = 1
 nnoremap <silent> <leader>t :%!perltidy -q<Enter>
 vnoremap <silent> <leader>t :!perltidy -q<Enter>
 
-
 " Deparse obfuscated code
 "nnoremap <silent> <leader>d :!perl -MO=Deparse 2>/dev/null<cr>
 "vnoremap <silent> <leader>d :!perl -MO=Deparse 2>/dev/null<cr>
+
+let g:syntastic_perl_checkers=['perlcritic']
