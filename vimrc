@@ -14,6 +14,9 @@ set nopaste
 set shiftwidth=4
 set ts=4
 
+"More cmdline history
+set history=2000
+
 "Show the current mode on the last line
 set showmode
 
