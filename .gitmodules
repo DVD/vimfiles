@@ -67,3 +67,6 @@
 [submodule "bundle/vim-perl.git"]
 	path = bundle/vim-perl.git
 	url = https://github.com/vim-perl/vim-perl.git
+[submodule "bundle/vim-bats"]
+	path = bundle/vim-bats
+	url = https://github.com/markcornick/vim-bats.git
