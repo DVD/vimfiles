@@ -5,7 +5,7 @@ imap <buffer> <C-F5> <Esc><F5>
 setlocal tags=""
 setlocal complete=.,w,b,u,t
 "setlocal equalprg=perltidy
-setlocal keywordprg=perldoc\ -f
+setlocal keywordprg=bash\ -c\ 'perldoc\ -f\ $0\ \|\|\ cpandoc\ $0'
 
 " my perl includes pod
 let perl_include_pod = 1
