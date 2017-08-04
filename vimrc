@@ -167,7 +167,7 @@ au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
 au FileType gitcommit au! BufEnter COMMIT_EDITMSG call setpos('.', [0, 1, 1, 0])
 
 highlight RedundantWhitespace ctermbg=red guibg=red
-match RedundantWhitespace /\s\+$\| \+\ze\t/
+match RedundantWhitespace /\s\+$\| \+\ze\t\|\t\+\ze /
 
 " Always open and focus the quickfix list after a grep
 autocmd QuickFixCmdPost *grep* if getqflist() != [] | copen | endif
