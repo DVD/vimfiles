@@ -76,3 +76,6 @@
 [submodule "bundle/presenting"]
 	path = bundle/presenting
 	url = https://github.com/sotte/presenting.vim.git
+[submodule "bundle/nginx.vim"]
+	path = bundle/nginx.vim
+	url = https://github.com/chr4/nginx.vim.git
